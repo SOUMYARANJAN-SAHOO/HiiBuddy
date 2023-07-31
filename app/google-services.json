@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327154033571",
+    "project_id": "hiibuddy-c3596",
+    "storage_bucket": "hiibuddy-c3596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327154033571:android:5b64ebcf5fdf4b26033016",
+        "android_client_info": {
+          "package_name": "com.soumyaranjan.hiibuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327154033571-a5st24ce9idv1lcks1htv54i0iuddq6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDckEd10FVPit6eAwP8PPBRY95-ql2FQJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327154033571-a5st24ce9idv1lcks1htv54i0iuddq6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
