@@ -19,6 +19,8 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import com.soumyaranjan.hiibuddy.databinding.ActivityMainBinding
 
 class HomeScreen : AppCompatActivity() {
@@ -39,7 +41,7 @@ class HomeScreen : AppCompatActivity() {
         setContentView(binding.root)
 
         mAuth = FirebaseAuth.getInstance()
-        database = FirebaseDatabase.getInstance().reference
+        database = Firebase.database.getReference()
 
         userList = arrayListOf()
         recycler = binding.userListRecycler
@@ -59,7 +61,7 @@ class HomeScreen : AppCompatActivity() {
                 adapter.notifyDataSetChanged()
             }
             override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(this@HomeScreen, "Failed to load comments", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@HomeScreen, "Failed to load comments: $error", Toast.LENGTH_SHORT).show()
             }
         })
     }
