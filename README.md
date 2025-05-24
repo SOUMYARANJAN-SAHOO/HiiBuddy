@@ -1,7 +1,7 @@
 
 # 🟦 HiiBuddy – Chat Smarter, Not Harder!
 
-![HiiBuddy Logo](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/applogo.png)
+![HiiBuddy Logo](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/applogo.png)
 
 > A blazing-fast, Firebase-powered Kotlin chat app built for secure and seamless real-time conversations.
 
@@ -9,7 +9,7 @@
 
 ## 🚀 Project Overview
 
-**HiiBuddy** is a modern, scalable chat application designed to provide real-time communication using Firebase Realtime Database, Firebase Authentication, and Firebase Cloud Messaging (FCM). Developed as part of an academic project at **C. V. Raman Global University**, this app emphasizes real-time messaging, user authentication, and push notification delivery.
+**HiiBuddy** is a modern, scalable chat application designed to provide real-time communication using Firebase Realtime Database, Firebase Authentication, and Firebase Cloud Messaging (FCM). Developed as a personal project, this app emphasizes real-time messaging, user authentication.
 
 🗓️ **Duration**: July 2023 – January 2024  
 📍 **Location**: Bhubaneswar  
@@ -47,8 +47,7 @@ Through this project, I focused on:
 
 | Login and Signup Screen                                                                                                                                                                        | Chat Interface                                                                                                                                                                                                    | User List                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| ![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/loginscreen.png) ![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/signupscreen.png) | ![Chat1](![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/chatscreen1.png)) ![Chat2](![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/chatscreen2.png)) | ![Users](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/tree/main/Screenshots/userlistscreen.png) |
-<!-- Replace placeholders with real screenshot URLs -->
+| ![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/loginscreen.png) ![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/signupscreen.png) | ![Chat1](![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/chatscreen1.png)) ![Chat2](![Login](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/chatscreen2.png)) | ![Users](https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy/blob/main/Screenshots/userlistscreen.png) |
 
 ---
 
@@ -65,7 +64,7 @@ Through this project, I focused on:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/Hiibuddy.git
+   git clone https://github.com/SOUMYARANJAN-SAHOO/HiiBuddy
    cd Hiibuddy
    ```
 
